@@ -22,8 +22,8 @@ from pyrogram.errors import FloodWait
 
 init(autoreset=True)
 
-API_ID = 23477584  # api
-API_HASH = '4ee989d60366feebdff6b26b7efec732'
+API_ID = xxxxxx  # api
+API_HASH = 'xxxxxxx'
 REF = 'f5055600013'  # ref untuk menjalankan bot
 SQUAD = -1001943111151  # id channel squad
 SQUAD2 = "cmVmPTY5MjIxMjcwODk="  # ref squad
