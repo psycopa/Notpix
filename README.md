@@ -8,7 +8,7 @@ cd Notpix
 ```
 pip install -r requirements.txt
 ```
-# lengkapi api dan hash kalian di bot.py
+# lengkapi api dan hash kalian di sesi.py
 dapetin data itu di my.telegram.org
 ```
 nano bot.py
