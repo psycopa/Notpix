@@ -29,6 +29,19 @@ python bot.py
 
 • password ( jika ada )
 
+# jika mau pakai template lain ? gunakan perintah ini !
+• buka bot di web > mode developer > pilih fetch/XHR
+
+• lalu pilih file my > preview > simpan data
+
+• download gambarnya salin bagian url > paste on web > download
+
+• lalu ganti nama gambar tadi ubah ke 111.png > dan masukan ke dalam file script
+
+```
+python create.py
+```
+
 # THANKS FOR ATTENTITON
 buy me a coffe
 EVM : 0x30611dA354E5732B5d849951bC69d5d41296ddf1
