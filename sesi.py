@@ -21,8 +21,8 @@ from pyrogram.errors import FloodWait
 
 init(autoreset=True)
 
-API_ID = 23477584  # api
-API_HASH = '4ee989d60366feebdff6b26b7efec732'
+API_ID = xxxxx  # api
+API_HASH = 'xxxxx'
 REF = 'f5055600013'  # ref untuk menjalankan bot
 SQUAD = -1001943111151  # id channel squad
 SQUAD2 = "cmVmPTY5MjIxMjcwODk="  # ref squad
@@ -357,7 +357,7 @@ class PixelTod:
         image2_path = 'orig4.png'  # Path to the original image
 
         areas = {
-            (90, 153, 100, 163),  # Define areas of the image that should be compared
+            (90, 153, 100, 163),  # Ganti sesuai area kalian
         }
 
         image1 = Image.open(image1_path)  # Open the first image
@@ -415,23 +415,23 @@ class PixelTod:
             self.log(f"{Fore.LIGHTYELLOW_EX}Saldo: {Fore.LIGHTWHITE_EX}{response_data['userBalance']}")
 
             url_st = "https://notpx.app/api/v1/image/template/my"
-            url_s = "https://notpx.app/api/v1/image/template/subscribe/1467975528"
+            url_s = "https://notpx.app/api/v1/image/template/subscribe/1467975528" # ganti id template disini
             res_st = self.api_call(url_st, headers=headers)
 
             if res_st.status_code == 200 or res_st.status_code == 201:
                 response_st = res_st.json()
-                if response_st["url"] != "https://static.notpx.app/templates/1467975528.png":
-                    url_s = "https://notpx.app/api/v1/image/template/subscribe/1467975528"
+                if response_st["url"] != "https://static.notpx.app/templates/1467975528.png": # ganti id template disini
+                    url_s = "https://notpx.app/api/v1/image/template/subscribe/1467975528" # ganti id template disini
                     self.api_call(url_s, headers=headers, method='PUT')
                     self.log(f"{Fore.LIGHTYELLOW_EX}Template dipasang")
                     time.sleep(0.5)
             elif res_st.status_code == 404:
-                url_s = "https://notpx.app/api/v1/image/template/subscribe/1467975528"
+                url_s = "https://notpx.app/api/v1/image/template/subscribe/1467975528" # ganti id template disini
                 self.api_call(url_s, headers=headers, method='PUT')
                 self.log(f"{Fore.LIGHTYELLOW_EX}Template dipasang")
                 time.sleep(0.5)
 
-            url_p = "https://notpx.app/api/v1/image/template/1467975528"
+            url_p = "https://notpx.app/api/v1/image/template/1467975528" # ganti id template disini
             res_i = self.api_call(url_p, headers=headers)
 
             if res_i.status_code == 200 or res.status_code == 201:
