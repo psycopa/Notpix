@@ -22,8 +22,11 @@ ganti xxxxxx dengan data kalian
 python bot.py
 ```
 • masukan nama sesi ( bebas )
+
 • no hp awalan +62...
+
 • OTP
+
 • password ( jika ada )
 
 # THANKS FOR ATTENTITON
