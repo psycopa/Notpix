@@ -11,7 +11,7 @@ pip install -r requirements.txt
 # lengkapi api dan hash kalian di sesi.py
 dapetin data itu di my.telegram.org
 ```
-nano bot.py
+nano sesi.py
 ```
 ganti xxxxxx dengan data kalian
 ( PERHATIKAN TANDA JNGN SMPAI SALAH )
@@ -19,7 +19,7 @@ ganti xxxxxx dengan data kalian
 
 # run bot 
 ```
-python bot.py
+python sesi.py
 ```
 • masukan nama sesi ( bebas )
 
